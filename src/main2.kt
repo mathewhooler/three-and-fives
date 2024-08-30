@@ -1,11 +1,11 @@
 fun main() {
   var sum = 0
   var i = 0
-  while (i <= 999) {
-    if (i % 3 == 0 && i % 5 == 0){
-      sum += i
+    while (i <= 999) {
+      if (i % 3 == 0 || i % 5 == 0) {
+      }
+      i++
     }
-    i++
+    println("Total is $sum")
   }
-  println("Total is $sum")
 }
