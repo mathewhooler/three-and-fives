@@ -8,7 +8,7 @@ class SumTest {
   fun testCalculate() {
     val sum = Sum()
     val result = sum.calculate()
-    assertEquals(23, result, "The calculate function should add multiples of 3 or 5 for anything under the number 1000")
+    assertEquals(233168, result, "The calculate function should add multiples of 3 or 5 for anything under the number 1000")
   }
 }
 
